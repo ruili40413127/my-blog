@@ -1,0 +1,4 @@
+Dear {{ user.username }},
+Please confirm you account
+You can copy the url below on website
+{{ url_for('auth.confirm', token=token, _external=True) }}
